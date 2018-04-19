@@ -1,0 +1,173 @@
+
+body{
+	margin: auto;
+}
+
+h1, h2{
+	font-family: OCR A Std, monospace;
+}
+
+p{
+	font-family: Arial Narrow, sans-serif;
+}
+
+/* header */
+
+header{
+	background-color: grey;
+	height: 115px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+h1 { 
+  color: white;
+  display: inline-block;
+  margin-left: 45%;
+}
+
+nav{
+	float: right;
+	margin-right: 5%;
+}
+
+li{
+	color: white;
+}
+
+a{
+  text-decoration: none; /* enleve le soulignement du texte */
+  padding-left: 2%;
+  color: black;
+}
+
+/* section histoire du street art */
+
+
+
+
+.inline-block {
+  color: #B40849;
+  display: inline-block;
+}
+
+.oeuvre_martin{
+  width: 30%;
+  float: left;  /* permet de placer un texte à coter ou autour d'une image */
+  padding-left: 8%;
+  padding-right: 3%;
+}
+
+p{
+	margin-left: 6%;
+	width: 85%;
+	text-transform: justify;
+}
+/* section artiste */
+
+.artiste{
+	clear: both;
+	margin-top: 20%;
+}
+
+h3 {
+	clear: both;
+	word-spacing: 190px;
+	color: black;
+	padding-left: 8%;
+}
+
+.block{
+	 color: #B40849;
+	 display: block;
+	 text-align: center;
+}
+
+
+/* création d'un zoom d'une image */
+
+.article_big_img {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    padding: 1px;
+ }
+ .zoomarticle {
+    float: left;
+    margin-left: 8%;
+    -webkit-box-sizing: border-box; /*le padding et la bordure de l'élément n'augmentent plus sa largeur*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+}
+ 
+.article_big_img > img {
+    width: 142px;
+    height: 142px;
+    margin-left: -16%;
+    transition: all 1s; /* temps de transition de l'animation zoom */
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+ 
+.zoomarticle:hover > .article_big_img > img {
+    transform: scale(1.20);	/* transformation de l'animation */
+    -ms-transform: scale(1.20);
+    -webkit-transform: scale(1.20);
+    -o-transform: scale(1.20);
+    -moz-transform: scale(1.10);
+}
+
+/* section art contestataire */
+
+.artcontestataire{
+	margin-top: 20%;
+	text-align: center;
+}
+
+.oeuvre_ernest{
+	text-align: center;
+}
+
+
+/* section approche d'une oeuvre */
+
+#approche_oeuvre{
+	margin-top: 20%;
+}
+
+.oeuvre_bansky{
+	float: right;
+	padding-right: 5%;
+	padding-top: 3%; 
+
+}
+
+h4{
+	padding-left: 8%;
+}
+
+/* pied de page */
+
+footer{
+	bottom: 0;
+	background-color: grey;
+	width: 100%;
+	margin-top: 5%;
+	height: 5%;
+}
+
+.pied_page{
+	color: white;
+	text-align: center;
+
+}
+
+#haut_de_page{
+	padding-bottom: 20%;
+}
+
+
+
